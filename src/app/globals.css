@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Plus Jakarta Sans", system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+}
+
+/* hero Section */
+
+.bg-hero-section {
+  background: linear-gradient(
+    179deg,
+    #e4ecff 1.11%,
+    rgba(234, 240, 255, 0) 103.22%
+  );
+}
+.box-border {
+  width: 9rem;
+  height: 11.3rem;
+  border: 2px solid black;
+  background-color: #e4ecff;
+  border-radius: 59px;
+}
+
+.home-circle {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.inner-box {
+  border-radius: 59px;
+}
+
+.content-container {
+  border: 2px solid;
+}
+
+.content-container p {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-container h1 {
+  text-shadow: 0px 12px 15px rgba(0, 0, 17, 0.25);
+
+  background: linear-gradient(
+    116deg,
+    #00217a 1.37%,
+    #760094 57.02%,
+    #0085ff 100.3%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tab Section */
+
+.tab-box {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+}
+.tab-box h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  background: linear-gradient(
+    90deg,
+    #092582 13.6%,
+    #3457cc 51.47%,
+    #06248a 89.35%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tab-box p {
+  color: #555;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+.bg-tab-box {
+  transform: rotate(4.253deg);
+  border-radius: 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(
+    180deg,
+    #bdd4ff 0%,
+    rgba(189, 212, 255, 0.44) 100%
+  );
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tab-box .btn {
+  border-radius: 2rem;
+  border: 1px solid #1943cc;
+  background: rgba(65, 80, 130, 0.1);
+  text-transform: uppercase;
+  color: #1943cc;
+  font-weight: 600;
+}
+
+.brands-section {
+  background: linear-gradient(
+    179deg,
+    rgba(234, 240, 255, 0) 1.11%,
+    #e4ecff 50.04%,
+    rgba(234, 240, 255, 0) 103.22%
+  );
+}
+
+.container {
+  padding: 0.2rem 0.5rem;
+  /* padding-bottom: 0.3rem; */
+}
+
+.work {
+  background: linear-gradient(
+    179deg,
+    #fff 3.24%,
+    #e4ecff 53.76%,
+    rgba(234, 240, 255, 0) 103.22%
+  );
+}
+/* Work Section */
+.work .work-heading {
+  font-style: normal;
+  font-weight: 700;
+
+  background: linear-gradient(
+    245deg,
+    #1896bd 11.59%,
+    #542de8 35.77%,
+    #ec276e 59.95%,
+    #d75a00 84.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-div h1 {
+  font-style: normal;
+  font-weight: 600;
+  background: linear-gradient(267deg, #5200ff 4.01%, #ff2df7 114.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.work .btn {
+  border-radius: 23.298px;
+  border: 2px solid #5200ff;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(
+    245deg,
+    #1896bd 11.59%,
+    #542de8 35.77%,
+    #ec276e 59.95%,
+    #d75a00 84.12%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.retail-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 0px 0px 12px 0px #6f6dff inset;
+}
+
+/* Testimonial */
+
+.testimonial-card {
+  border-radius: 1.25rem;
+  border: 1px solid var(--neutral-300, #eff0f6);
+  background: var(--neutral-100, #fff);
+  box-shadow: 0px 5px 14px 0px rgba(8, 15, 52, 0.04);
+}
+
+.testimonial-heading {
+  color: var(--neutral-800, #170f49);
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.testimonial-content {
+  color: var(--neutral-600, #6f6c90);
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+#overlay {
+  position: absolute;
+  inset: 0;
+  width: 101vw;
+  height: 102vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  filter: blur(0); /* Initial blur value */
+  transition: filter 0.3s; /* Transition effect for the blur */
+  pointer-events: none; /* Allow clicks to pass through when hidden */
+  z-index: -1; /* Place it below other content */
+}
