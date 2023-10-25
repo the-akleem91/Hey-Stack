@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import brands from "@/app/constants/brands";
 import { brandsBreakPoint } from "@/app/constants/breakpoints";
-import Carousel from "../../node_modules/better-react-carousel";
+import Carousel from "better-react-carousel";
 
 const Carousal = () => {
   return (
