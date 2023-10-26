@@ -5,11 +5,11 @@ function Tab() {
   return (
     <div className="w-full flex justify-center mt-10 ">
       <div className="md:w-[70%] w-[85%] relative">
-        <div className=" w-full tab-box relative z-40 lg:px-10 lg:py-6 px-8 py-6 bg-white flex justify-center flex-col overflow-hidden">
-          <h1 className="lg:text-[2.5rem] md:text-4xl text-[1rem] lg:mx-40 mx-10">
+        <div className="w-full tab-box relative z-40 lg:px-10 lg:py-6 px-6 py-6 bg-white flex justify-center flex-col overflow-hidden">
+          <h1 className="lg:text-[2.5rem] md:text-4xl text-[1rem] lg:mx-40 my-2">
             Actionable insights for smarter decisions
           </h1>
-          <p className="text-sm md:text-xl md:mt-4 text-[0.8rem] mt-2">
+          <p className="text-sm md:text-xl md:mt-4 text-[0.8rem] mt-2 text-left ">
             Heystack is the most comprehensive analytics solution for
             aggregating and analyzing customer reviews at scale. Heystack
             aggregates millions of customer reviews across Amazon, Walmart,

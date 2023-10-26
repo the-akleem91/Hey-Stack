@@ -5,9 +5,11 @@ import React from "react";
 function Work() {
   return (
     <div className="md:mt-26 mt-20  work w-full ">
-      <p className="text-center md:text-[2.5rem] text-[2rem] px-3 work-heading">
-        How brands leverage Heystack Insights
-      </p>
+      <div className="px-1">
+        <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 work-heading">
+          How brands leverage Heystack Insights
+        </p>
+      </div>
       <div className=" md:mt-8  w-[90%] mx-auto flex flex-col gap-10 ">
         {work.map((items, ind) => (
           <div
@@ -21,7 +23,7 @@ function Work() {
               <h1 className="md:text-2xl  tracking-wider">
                 MINIMIZE OPTAMIZATION
               </h1>
-              <p className="text-gray-700 font-medium">
+              <p className="text-[1.1rem]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 aliquet scelerisque eros, sed tempor velit consectetur in. Morbi
                 tincidunt

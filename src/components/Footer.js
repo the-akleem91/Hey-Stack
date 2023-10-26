@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="md:mt-28 mt-20 p-6 ">
-      <div className="bg-[#F5F5F5] rounded-xl md:p-20 p-10 flex  md:justify-between flex-wrap justify-center text-sm items-center gap-20">
+    <div className="md:mt-28 mt-20 xl:p-6 text-xl ">
+      <div className="bg-[#F5F5F5] xl:rounded-xl md:p-20 p-10 flex  md:justify-between flex-wrap justify-center text-sm items-center gap-20">
         <div className="flex flex-col gap-3 mx-auto md:mx-0  md:items-start items-center">
           <p className="text-xl font-bold">Logo</p>
           <p className="w-[10rem] md:text-left text-center">

@@ -8,10 +8,10 @@ import { Retailbreakpoints } from "@/app/constants/breakpoints";
 function RetailPartner() {
   return (
     <div className="w-full mt-20 md:mt-26 brands-section">
-      <p className="text-center md:text-[2.5rem] text-[2rem] px-3 heading">
+      <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 heading">
         Retail Partners
       </p>
-      <div className="my-10 relative">
+      <div className="my-6 relative">
         <div className="w-[90%] mx-auto ">
           <Carousel
             loop

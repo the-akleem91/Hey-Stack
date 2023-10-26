@@ -22,15 +22,15 @@ const TestimonialBreakPoints = [
 
 const Retailbreakpoints = [
   {
-    breakpoint: 500,
-    cols: 3,
+    breakpoint: 400,
+    cols: 2,
     rows: 2,
     gap: 10,
     autoplay: 2000,
   },
   {
     breakpoint: 700,
-    cols: 4,
+    cols: 3,
     rows: 2,
     gap: 15,
     autoplay: 2000,
@@ -38,7 +38,7 @@ const Retailbreakpoints = [
 
   {
     breakpoint: 800,
-    cols: 5,
+    cols: 4,
     rows: 2,
     gap: 15,
   },
@@ -49,7 +49,7 @@ const brandsBreakPoint = [
     breakpoint: 400,
     cols: 2,
     rows: 2,
-    gap: 15,
+    gap: 10,
     autoplay: 2000,
   },
   {
