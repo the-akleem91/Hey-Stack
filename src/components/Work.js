@@ -6,7 +6,7 @@ function Work() {
   return (
     <div className="md:mt-26 mt-20  work w-full ">
       <div className="px-1">
-        <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 work-heading">
+        <p className="text-center md:text-[2.5rem] text-[1.5rem] px-3 work-heading">
           How brands leverage Heystack Insights
         </p>
       </div>
@@ -19,11 +19,11 @@ function Work() {
             }  px-10  md:mt-0 flex-col-reverse`}
             key={ind}
           >
-            <div className="flex flex-col basis-[60%] content-div md:gap-6 gap-3 md:p-10 md:mt-0 mt-5">
+            <div className="flex flex-col basis-[60%] content-div md:gap-4 gap-3 md:p-10 md:mt-0 mt-5">
               <h1 className="md:text-2xl  tracking-wider">
                 MINIMIZE OPTAMIZATION
               </h1>
-              <p className="text-[1.1rem]">
+              <p className="md:text-base text-sm text-gray-800">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 aliquet scelerisque eros, sed tempor velit consectetur in. Morbi
                 tincidunt

@@ -6,7 +6,7 @@ function Testimonial() {
     <div className="md:mt-28 mt-20 testimonial testimonial">
       <div>
         <div className="text-center">
-          <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 heading">
+          <p className="text-center md:text-[2.5rem] text-[1.5rem] px-3 heading">
             Testimonials
           </p>
           <p className="md:text-2xl text-base text-gray-600">
@@ -18,7 +18,7 @@ function Testimonial() {
         </div>
       </div>
       <div className="bg-[#e5ecff] md:pt-10 pt-5 flex justify-center flex-col md:mt-28 mt-20">
-        <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 heading ">
+        <p className="text-center md:text-[2.5rem] text-[1.5rem] px-3 heading ">
           How HeyStack Works
         </p>
         <Image

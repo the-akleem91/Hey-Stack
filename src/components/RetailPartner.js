@@ -8,7 +8,7 @@ import { Retailbreakpoints } from "@/app/constants/breakpoints";
 function RetailPartner() {
   return (
     <div className="w-full mt-20 md:mt-26 brands-section">
-      <p className="text-center md:text-[2.5rem] text-[1.25rem] px-3 heading">
+      <p className="text-center md:text-[2.5rem] text-[1.5rem] px-3 heading">
         Retail Partners
       </p>
       <div className="my-6 relative">
